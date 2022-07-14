@@ -19,6 +19,9 @@ dtype={'Div1Airport': str, 'Div1TailNum': str,
        'Div2Airport': str, 'Div2TailNum': str})
 
 app = dash.Dash(__name__)
+server = app.server
+
+app.title=tabtitle
 
 def compute_info(airline_data, entered_year):
     # Select data
