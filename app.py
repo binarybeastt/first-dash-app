@@ -18,7 +18,7 @@ encoding = "ISO-8859-1",
 dtype={'Div1Airport': str, 'Div1TailNum': str, 
        'Div2Airport': str, 'Div2TailNum': str})
 
-app = JupyterDash(__name__)
+app = dash.Dash(__name__)
 
 def compute_info(airline_data, entered_year):
     # Select data
