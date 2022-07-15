@@ -11,7 +11,6 @@ from dash import Dash
 from dash import dcc
 from dash import html
 from dash.dependencies import Input, Output
-from jupyter_dash import JupyterDash
 import pandas as pd
 airline_data =  pd.read_csv('airline_data.csv', 
 encoding = "ISO-8859-1",
